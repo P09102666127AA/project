@@ -100,7 +100,7 @@
           </div>
         </ul>
         <a
-          href="#"
+          href="C:\Users\pooria\Desktop\project\components\foreign-page2.vue"
           class="grid justify-items-center rounded-none bg-blue-600 text-white font-bold w-20 mx-24 mb-2"
         >
           <p>بیشتر</p>

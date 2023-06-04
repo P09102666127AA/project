@@ -1,6 +1,5 @@
-<!-- Please remove this file from your project -->
 <template>
-  <div
+    <div
     class="flex flex-row-reverse items-center justify-between shadow bg-gradient-to-r from-indigo-950 from-10% via-fuchsia-500 via-50% to-rose-500 to-90%  px-4"
   >
     <div class=" mt-2 mb-2">

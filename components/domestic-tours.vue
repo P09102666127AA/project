@@ -4,6 +4,7 @@
     <br>
     <br>
     <br>
+
     <h1 class="text-orange-600 text-right mr-20 mt-20 font-bold text-2xl">
       تورهای داخلی
     </h1>
@@ -13,6 +14,7 @@
       ها مختلف برگزار می شوند.
     </p>
     <img class="w-50 h-50 mt-10 mr-20" src="international-tour.jpg" />
+
     <!--menu!-->
     <div
       class="flex justify-between shadow bg-gradient-to-r from-indigo-950 from-10% via-fuchsia-500 via-50% to-rose-500 to-90% px-6 py-4 mt-10"
