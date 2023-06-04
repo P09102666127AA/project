@@ -1,9 +1,9 @@
 <template>
   <footer>
     <div
-      class="flex flex-row items-center justify-between shadow bg-gradient-to-r from-indigo-950 from-10% via-fuchsia-500 via-50% to-rose-500 to-90% px-4"
+      class="flex flex-col md:flex-row lg:flex-row sm:flex-col items-center justify-between shadow bg-gradient-to-r from-indigo-950 from-10% via-fuchsia-500 via-50% to-rose-500 to-90% px-4"
     >
-      <div class="flex flex-col py-4">
+      <div class="flex flex-col py-4 mr-10">
         <img
           class="inline-block h-32 w-32 mr-10 rounded-full"
           src="logo.png"
@@ -17,7 +17,7 @@
         </div>
       </div>  
       <div class="flex flex-col">
-   <div class="flex flex-row">
+   <div class="flex flex-row mt-10">
     <p class="text-white">
 ما را در فضای مجازی دنبال کنید:
     </p>
@@ -74,14 +74,14 @@
     </div>
 
    </div>
-   <div class="flex flex-col">
+   <div class="flex flex-col ml-10">
    <div class="flex flex-row-reverse">
     <ul>
       <li class="text-white py-2">راه های ارتباطی با ما:</li>
       <li class="text-white py-2">86043550</li>
       <li class="text-white py-2">Admin@gmail.com</li>
       <li class="text-white pt-2">آدرس</li>
-      <li class="text-white">شریعتی _ هویزه</li>
+      <li class="text-white pb-4">شریعتی _ هویزه</li>
     </ul>
    </div>
    </div>
@@ -89,7 +89,7 @@
       </div>
     <!--footer info-->
     <div
-      class="items-center justify-between shadow bg-gradient-to-r from-indigo-950 from-10% via-fuchsia-500 via-50% to-rose-500 to-90% py-2 drop-shadow-2xl"
+      class="items-center justify-between shadow bg-gradient-to-r from-indigo-950 from-20% via-fuchsia-500 via-40% to-rose-500 to-70% py-2 drop-shadow-2xl"
     >
       <p class="text-center text-white">کلیه حقوق محفوض است</p>
     </div>
