@@ -4,6 +4,7 @@ export default {
     title: 'nuxtjs',
     htmlAttrs: {
       lang: 'fa',
+      dir: 'rtl',
     },
     meta: [
       { charset: 'utf-8' },

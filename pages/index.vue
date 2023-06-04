@@ -1,9 +1,12 @@
 <template>
-  <Tutorial/>
+  <div>
+    <logomenu />
+    <introimage />
+    <Foreign-tours/>
+    <domestic-tours/>
+    <hotels/>
+    <aboutme/>
+    <iconphone/>
+    <footeer/>
+  </div>
 </template>
-
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>
