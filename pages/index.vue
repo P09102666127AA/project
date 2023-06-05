@@ -2,8 +2,8 @@
   <div>
     <logomenu />
     <introimage />
-    <Foreign-tours/>
-    <domestic-tours/>
+    <Foreigntours/>
+    <domestictours/>
     <hotels/>
     <aboutme/>
     <iconphone/>
