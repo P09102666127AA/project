@@ -1,6 +1,6 @@
 
 <template>
-    <div>
-<foreign-page2/>
-</div>
+  <div>
+    <pagetourcommponent />
+  </div>
 </template>
