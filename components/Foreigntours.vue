@@ -1,19 +1,25 @@
 <template>
   <div>
     <!--text title!-->
-    <h1 class="text-orange-600 text-right mt-10 mr-20 font-bold text-2xl">
-      تورهای خارجی
-    </h1>
-    <p
-      class="text-black mt-6 mr-20 text-right leading-loose justify-center ml-20"
+    <div
+      class="flex flex-col md:flex-row-reverse lg:flex-row-reverse sm:flex-col mt-32 items-center mb-24"
     >
-      معمولا پر طرفدارترین تورهای خارجی تور ترکیه ، تور ایتالیا و تور آلمان می
-      باشد. این تورهای مسفارتی همه روزه با پروازهای مختلف از تهران و شهرستان ها
-      با هتل ها مختلف برگزار می شوند.
-    </p>
-    <div>
-      <img class="w-50 h-50 mt-10 mr-20" src="international-tour.jpg" />
+      <img
+        src="international-tour.jpg"
+        class="w-32 h-32 md:w-60 md:h-60 lg:w-80 lg:h-80 mr-20 ml-20"
+      />
+      <div class="p-4">
+        <div class="flow-root">
+          <div class="text-2xl text-orange-500 mt-10 mr-20">تورهای خارجی</div>
+        </div>
+        <p class="flow-root mt-6 mr-20 ml-20 leading-loose">
+          معمولا پر طرفدارترین تورهای خارجی تور ترکیه ، تور ایتالیا و تور آلمان
+          می باشد. این تورهای مسفارتی همه روزه با پروازهای مختلف از تهران و
+          شهرستان ها با هتل ها مختلف برگزار می شوند.
+        </p>
+      </div>
     </div>
+
     <!--menu!-->
     <div
       class="flex justify-between shadow bg-gradient-to-r from-indigo-950 from-10% via-fuchsia-500 via-50% to-rose-500 to-90% px-6 py-4 mt-10"
@@ -27,9 +33,9 @@
       </a>
     </div>
     <!--menu box!-->
-    <div class="flex flex-row">
+    <div class="flex flex-row overflow-x-scroll md:overflow-hidden lg:overflow-hidden">
       <span
-        class="shadow-md mr-4 bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md"
+        class="shadow-md  md:mr-2 lg:mr-4 mr-0 bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md"
       >
         <img class="h-48 w-full object-cover" src="turkish.jpg" alt="turkish" />
         <ul class="flex flex-col">
@@ -94,14 +100,15 @@
           </div>
           <div class="">
             <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br> آسیاست، شهر گنبد ایاصوفیه،
-              شاهکار <br> بیزینس و...
+              شهری که نیم وجودش اروپا و نیم دیگرش <br />
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+              بیزینس و...
             </p>
           </div>
         </ul>
         <NuxtLink
-          to="/firstpagetours" 
-          class="grid justify-items-center rounded-none bg-blue-600 text-white font-bold w-20 mx-24 mb-2"
+          to="/firstpagetours"
+          class="grid justify-items-center rounded-full bg-blue-600 text-white font-bold w-20 mx-24 mb-2 py-2"
         >
           بیشتر
         </NuxtLink>
@@ -173,16 +180,17 @@
           </div>
           <div class="">
             <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br> آسیاست، شهر گنبد ایاصوفیه،
-              شاهکار <br> بیزینس و...
+              شهری که نیم وجودش اروپا و نیم دیگرش <br />
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+              بیزینس و...
             </p>
           </div>
         </ul>
         <a
           href="#"
-          class="grid justify-items-center rounded-none bg-blue-600 text-white font-bold w-20 mx-24 mb-2"
+          class="grid justify-items-center rounded-full bg-blue-600 text-white font-bold w-20 mx-24 mb-2 py-2"
         >
-          <p>بیشتر</p>
+        بیشتر
         </a>
       </span>
 
@@ -252,16 +260,17 @@
           </div>
           <div class="">
             <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br> آسیاست، شهر گنبد ایاصوفیه،
-              شاهکار <br> بیزینس و...
+              شهری که نیم وجودش اروپا و نیم دیگرش <br />
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+              بیزینس و...
             </p>
           </div>
         </ul>
         <a
           href="#"
-          class="grid justify-items-center rounded-none bg-blue-600 text-white font-bold w-20 mx-24 mb-2"
+          class="grid justify-items-center rounded-full bg-blue-600 text-white font-bold w-20 mx-24 mb-2 py-2"
         >
-          <p>بیشتر</p>
+       بیشتر
         </a>
       </span>
 
@@ -331,8 +340,9 @@
           </div>
           <div class="">
             <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br> آسیاست، شهر گنبد ایاصوفیه،
-              شاهکار <br> بیزینس و...
+              شهری که نیم وجودش اروپا و نیم دیگرش <br />
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+              بیزینس و...
             </p>
           </div>
         </ul>

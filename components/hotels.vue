@@ -1,19 +1,23 @@
 <template>
   <div>
-    <br>
-    <br>
-    <br>
     <!--text title!-->
-    <h1 class="text-orange-600 text-right mt-20 mr-20 font-bold text-2xl">
-      هتل ها
-    </h1>
-    <p class="text-black mt-6 mr-20  text-right leading-loose justify-center ml-20">
-      هتل ها براساس خدمات و کیفیت که دارند درجه بندی می شوند. درجه ی هتل ها از
-      یک ستاره تا پنج ستاره است که براساس استانداردهای جهانی هتل داری آیین نامه
-      آن شکل گرفته است و بر حسب آن هتل ها نیز امتیاز داده می شوند.
-    </p>
-    <div>
-      <img class="w-50 h-50 mt-10 mr-20" src="international-tour.jpg" />
+    <div
+      class="flex flex-col md:flex-row-reverse lg:flex-row-reverse sm:flex-col mt-32 items-center mb-24"
+    >
+      <img
+        src="international-tour.jpg"
+        class="w-32 h-32 md:w-60 md:h-60 lg:w-80 lg:h-80 mr-20 ml-20"
+      />
+      <div class="p-4">
+        <div class="flow-root">
+          <div class="text-2xl text-orange-500 mt-10 mr-20">هتل ها</div>
+        </div>
+        <p class="flow-root mt-6 mr-20 ml-20 leading-loose">
+          هتل ها براساس خدمات و کیفیت که دارند درجه بندی می شوند. درجه ی هتل ها
+          از یک ستاره تا پنج ستاره است که براساس استانداردهای جهانی هتل داری
+          آیین نامه آن شکل گرفته است و بر حسب آن هتل ها نیز امتیاز داده می شوند.
+        </p>
+      </div>
     </div>
     <!--menu!-->
     <div
@@ -95,8 +99,9 @@
           </div>
           <div class="">
             <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br> آسیاست، شهر گنبد ایاصوفیه،
-              شاهکار <br> بیزینس و...
+              شهری که نیم وجودش اروپا و نیم دیگرش <br />
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+              بیزینس و...
             </p>
           </div>
         </ul>
@@ -174,8 +179,9 @@
           </div>
           <div class="">
             <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br> آسیاست، شهر گنبد ایاصوفیه،
-              شاهکار <br> بیزینس و...
+              شهری که نیم وجودش اروپا و نیم دیگرش <br />
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+              بیزینس و...
             </p>
           </div>
         </ul>
@@ -253,8 +259,9 @@
           </div>
           <div class="">
             <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br> آسیاست، شهر گنبد ایاصوفیه،
-              شاهکار <br> بیزینس و...
+              شهری که نیم وجودش اروپا و نیم دیگرش <br />
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+              بیزینس و...
             </p>
           </div>
         </ul>
@@ -332,8 +339,9 @@
           </div>
           <div class="">
             <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br> آسیاست، شهر گنبد ایاصوفیه،
-              شاهکار <br> بیزینس و...
+              شهری که نیم وجودش اروپا و نیم دیگرش <br />
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+              بیزینس و...
             </p>
           </div>
         </ul>

@@ -1,19 +1,28 @@
 <template>
   <!--text title!-->
   <div>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
 
-    <h1 class="text-orange-600 text-right mr-20 mt-20 font-bold text-2xl">
-      تورهای داخلی
-    </h1>
-    <p class="text-black mt-6 mr-20 text-right leading-loose justify-center ml-20">
-      معمولا پر طرفدارترین تورهای داخلی تور کیش ، تور قشم و تور شیراز می باشد.
-      این تورهای مسفارتی همه روزه با پروازهای مختلف از تهران و شهرستان ها با هتل
-      ها مختلف برگزار می شوند.
-    </p>
-    <img class="w-50 h-50 mt-10 mr-20" src="international-tour.jpg" />
+    <div
+      class="flex flex-col md:flex-row lg:flex-row sm:flex-col mt-32 items-center mb-24"
+    >
+      <img
+        src="international-tour.jpg"
+        class="w-32 h-32 md:w-60 md:h-60 lg:w-80 lg:h-80 mr-20 ml-20"
+      />
+      <div class="p-4">
+        <div class="flow-root">
+          <div class="text-2xl text-orange-500 mt-10 mr-20">تورهای داخلی</div>
+        </div>
+        <p class="flow-root mt-6 mr-20 ml-20 leading-loose">
+          معمولا پر طرفدارترین تورهای داخلی تور کیش ، تور قشم و تور شیراز می
+          باشد. این تورهای مسفارتی همه روزه با پروازهای مختلف از تهران و شهرستان
+          ها با هتل ها مختلف برگزار می شوند.
+        </p>
+      </div>
+    </div>
 
     <!--menu!-->
     <div
@@ -28,7 +37,7 @@
       </a>
     </div>
     <!--menu box!-->
-    <div class="flex flex-row">
+    <div class="flex flex-row overflow-x-auto md:overflow-hidden lg:overflow-hidden">
       <span
         class="shadow-md mr-4 bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md"
       >
@@ -95,8 +104,9 @@
           </div>
           <div class="">
             <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br> آسیاست، شهر گنبد ایاصوفیه،
-              شاهکار <br> بیزینس و...
+              شهری که نیم وجودش اروپا و نیم دیگرش <br />
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+              بیزینس و...
             </p>
           </div>
         </ul>
@@ -174,8 +184,9 @@
           </div>
           <div class="">
             <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br> آسیاست، شهر گنبد ایاصوفیه،
-              شاهکار <br> بیزینس و...
+              شهری که نیم وجودش اروپا و نیم دیگرش <br />
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+              بیزینس و...
             </p>
           </div>
         </ul>
@@ -253,8 +264,9 @@
           </div>
           <div class="">
             <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br> آسیاست، شهر گنبد ایاصوفیه،
-              شاهکار <br> بیزینس و...
+              شهری که نیم وجودش اروپا و نیم دیگرش <br />
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+              بیزینس و...
             </p>
           </div>
         </ul>
@@ -332,8 +344,9 @@
           </div>
           <div class="">
             <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br> آسیاست، شهر گنبد ایاصوفیه،
-              شاهکار <br> بیزینس و...
+              شهری که نیم وجودش اروپا و نیم دیگرش <br />
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+              بیزینس و...
             </p>
           </div>
         </ul>

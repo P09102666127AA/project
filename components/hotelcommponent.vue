@@ -1,7 +1,7 @@
 <template>
-  <div>
+   <div>
     <h1 class="text-orange-600 text-center mt-10 font-bold text-2xl">
-      تور استانبول
+      تور کیششششششششششششششش
     </h1>
     <p
       class="text-black text-center leading-loose justify-center rounded-full border bg-blue-400 px-10 md:mx-10 lg:mx-80 mt-4 py-2"
@@ -11,7 +11,7 @@
     </p>
 
     <div
-      class="items-center flex flex-col md:flex-row lg:flex-row sm:flex-col mt-32"
+      class="flex items-center flex flex-col md:flex-row lg:flex-row sm:flex-col mt-32"
     >
       <img
         src="international-tour.jpg"
