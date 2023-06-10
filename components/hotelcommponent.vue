@@ -1,7 +1,7 @@
 <template>
    <div>
     <h1 class="text-orange-600 text-center mt-10 font-bold text-2xl">
-      تور کیششششششششششششششش
+      هتل ها
     </h1>
     <p
       class="text-black text-center leading-loose justify-center rounded-full border bg-blue-400 px-10 md:mx-10 lg:mx-80 mt-4 py-2"

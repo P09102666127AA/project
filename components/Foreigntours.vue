@@ -346,12 +346,12 @@
             </p>
           </div>
         </ul>
-        <a
-          href="#"
-          class="grid justify-items-center rounded-none bg-blue-600 text-white font-bold w-20 mx-24 mb-2"
+        <NuxtLink
+          to="/firstpagetours"
+          class="grid justify-items-center rounded-full bg-blue-600 text-white font-bold w-20 mx-24 mb-2 py-2"
         >
-          <p>بیشتر</p>
-        </a>
+          بیشتر
+        </NuxtLink>
       </span>
     </div>
   </div>
