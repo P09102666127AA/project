@@ -1,12 +1,12 @@
 <!-- Please remove this file from your project -->
 <template>
   <div
-    class="flex flex-row-reverse items-center justify-between shadow bg-gradient-to-r from-indigo-950 from-10% via-fuchsia-500 via-50% to-rose-500 to-90%  px-4"
+    class="flex flex-row-reverse items-center justify-between shadow bg-gradient-to-r from-indigo-950 from-10% via-fuchsia-500 via-50% to-rose-500 to-90% "
   >
     <div class=" mt-2 mb-2">
       <NuxtLink to="/index">
       <img
-        class="inline-block md:h-14 md:w-14 w-14 h-10 ml-10 rounded-full object-cover"
+        class="inline-block md:h-14 md:w-14 w-14 h-10 invisible md:visible lg:visible rounded-full md:10 lg:ml-10 object-cover"
         src="logo.png"
         alt="logo"
       />
@@ -14,14 +14,14 @@
     </div>
 
     <ul class="flex px-6  pb-0 ">
-      <NuxtLink to="/index" class="mx-4  my-4 text-x1 hover:text-black text-white font-bold">
+      <NuxtLink to="/index" class="mx-4  my-4 text-sm hover:text-black text-white font-bold">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth="{1.5}"
           stroke="currentColor"
-          class="w-6 h-6 text-x1 text-white font-bold justify-center "
+          class="w-6 h-6  text-white font-bold justify-center "
         >
           <path
             strokeLinecap="round"
@@ -32,14 +32,14 @@
         خانه
         </NuxtLink>
       
-        <NuxtLink to="/firstpagetours" class="text-x1 hover:text-black text-white font-bold mx-4  my-4">
+        <NuxtLink to="/firstpagetours" class="text-sm hover:text-black text-white font-bold mx-4  my-4">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
     stroke-width="1.5"
     stroke="currentColor"
-    class="w-6 h-6 text-x1 text-white font-bold mr-2"
+    class="w-6 h-6  text-white font-bold mr-2"
   >
     <path
       stroke-linecap="round"
@@ -50,14 +50,14 @@
   
 تور ها
   </NuxtLink>
-      <NuxtLink to="/pagehotel" class="text-x1 hover:text-black text-white font-bold mx-4  my-4">
+      <NuxtLink to="/pagehotel" class="text-sm hover:text-black text-white font-bold mx-4  my-4">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth="{1.5}"
           stroke="currentColor"
-          class="w-6 h-6 text-x1 text-white font-bold md:mr-3 lg:mr-3"
+          class="w-6 h-6 text-white font-bold md:mr-3 lg:mr-3"
         >
           <path
             strokeLinecap="round"
@@ -67,14 +67,14 @@
         </svg>
    هتل ها
     </NuxtLink>
-    <NuxtLink to="/pagecontactus" class="text-x1 hover:text-black text-white font-bold mx-4  my-4  ">
+    <NuxtLink to="/pagecontactus" class="text-sm hover:text-black text-white font-bold mx-4  my-4  ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-6 h-6 text-x1 text-white font-bold mr-2 md:mr-6 lg:mr-6"
+          class="w-6 h-6 text-white font-bold mr-2 md:mr-6 lg:mr-6"
         >
           <path
             stroke-linecap="round"
@@ -85,7 +85,7 @@
     تماس با ما
   </NuxtLink>
     
-      <NuxtLink to="/pageaboutwe" class="text-x1 hover:text-black text-white font-bold mx-4  my-4 ">
+      <NuxtLink to="/pageaboutwe" class="text-sm hover:text-black text-white font-bold mx-4  my-4 ">
   <svg
     href="#"
     xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@
     viewBox="0 0 24 24"
     stroke-width="1.5"
     stroke="currentColor"
-    class="w-6 h-6 text-x1 text-white font-bold mr-2 md:mr-4 lg:mr-4"
+    class="w-6 h-6 text-white font-bold mr-2 md:mr-4 lg:mr-4"
   >
     <path
       stroke-linecap="round"

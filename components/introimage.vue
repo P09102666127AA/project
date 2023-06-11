@@ -2,11 +2,11 @@
   <div>
 
         <div class="flex flex-col md:absolute lg:absolute">
-          <div class="lg:text-2xl md:text-base text-orange-500 md:mt-20 lg:mt-20 md:mx-20 lg:mx-20">
+          <div class="lg:text-2xl md:text-base text-orange-500 md:mt-20 lg:mt-20 md:mx-20 lg:mx-20 flex justify-center mt-10">
 سفر خود را با اطمینان به ما بسپارید!
           </div>
        
-        <p class=" pt-20 text-violet-800	lg:text-2xl md:text-base md:mt- lg:mt- md:mx-48 lg:mx-48 ">
+        <p class=" mt-20 text-violet-800	lg:text-2xl md:text-base  md:mx-48 lg:mx-48 flex justify-center mb-10">
 بدرقه پرواز آرین
         </p>
       </div>

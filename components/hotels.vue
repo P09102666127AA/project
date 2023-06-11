@@ -32,7 +32,7 @@
       </a>
     </div>
     <!--menu box!-->
-    <div class="flex flex-row">
+    <div class="flex flex-col md:flex-row lg:flex-row overflow-x-auto md:overflow-hidden lg:overflow-hidden">
       <span
         class="shadow-md mr-4 bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md"
       >
@@ -40,7 +40,7 @@
         <ul class="flex flex-col">
           <div class="h-48 px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
-              <h2 class="font-bold text-black py-3 mr-2">هتل اسپانوس</h2>
+              <h2 class="font-bold text-black py-3 mr-2">قشم</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -120,7 +120,7 @@
         <ul class="flex flex-col">
           <div class="h-48 px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
-              <h2 class="font-bold text-black py-3 mr-2">هتل لاکتور</h2>
+              <h2 class="font-bold text-black py-3 mr-2">کیش</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -200,7 +200,7 @@
         <ul class="flex flex-col">
           <div class="h-48 px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
-              <h2 class="font-bold text-black py-3 mr-2">هتل کاسپین</h2>
+              <h2 class="font-bold text-black py-3 mr-2">اصفهان</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -280,7 +280,7 @@
         <ul class="flex flex-col">
           <div class="h-48 px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
-              <h2 class="font-bold text-black py-3 mr-2">هتل مورنا</h2>
+              <h2 class="font-bold text-black py-3 mr-2">شیراز</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

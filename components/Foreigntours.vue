@@ -33,7 +33,7 @@
       </a>
     </div>
     <!--menu box!-->
-    <div class="flex flex-row overflow-x-scroll md:overflow-hidden lg:overflow-hidden">
+    <div class="flex flex-col md:flex-row lg:flex-row overflow-x-scroll md:overflow-hidden lg:overflow-hidden">
       <span
         class="shadow-md  md:mr-2 lg:mr-4 mr-0 bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md"
       >

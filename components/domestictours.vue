@@ -1,9 +1,7 @@
 <template>
   <!--text title!-->
-  <div>
-    <br />
-    <br />
-    <br />
+  <div class="pt-20">
+ 
 
     <div
       class="flex flex-col md:flex-row lg:flex-row sm:flex-col mt-32 items-center mb-24"
@@ -37,7 +35,7 @@
       </a>
     </div>
     <!--menu box!-->
-    <div class="flex flex-row overflow-x-auto md:overflow-hidden lg:overflow-hidden">
+    <div class="flex flex-col md:flex-row lg:flex-row overflow-x-auto md:overflow-hidden lg:overflow-hidden">
       <span
         class="shadow-md mr-4 bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md"
       >
