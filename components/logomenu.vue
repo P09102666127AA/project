@@ -6,15 +6,15 @@
     <div class=" mt-2 mb-2">
       <NuxtLink to="/index">
       <img
-        class="inline-block md:h-14 md:w-14 w-14 h-10 invisible md:visible lg:visible rounded-full md:10 lg:ml-10 object-cover"
+        class="inline-block md:h-14 md:w-14 w-14 h-10 invisible md:visible lg:visible rounded-full lg:ml-10 object-cover"
         src="logo.png"
         alt="logo"
       />
       </NuxtLink>
     </div>
 
-    <ul class="flex px-6  pb-0 ">
-      <NuxtLink to="/index" class="mx-4  my-4 text-sm hover:text-black text-white font-bold">
+    <ul class="flex flex-col md:flex-row lg:flex-row  pr-6">
+      <NuxtLink to="/index" class="md:mx-4 lg:mx-4 md:my-4 lg:my-4 text-sm hover:text-black text-white font-bold">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -32,14 +32,14 @@
         خانه
         </NuxtLink>
       
-        <NuxtLink to="/firstpagetours" class="text-sm hover:text-black text-white font-bold mx-4  my-4">
+        <NuxtLink to="/firstpagetours" class="text-sm hover:text-black text-white font-bold md:mx-4 lg:mx-4 md:my-4 lg:my-4">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
     stroke-width="1.5"
     stroke="currentColor"
-    class="w-6 h-6  text-white font-bold mr-2"
+    class="w-6 h-6  text-white font-bold md:mr-2 lg:mr-2"
   >
     <path
       stroke-linecap="round"
@@ -50,7 +50,7 @@
   
 تور ها
   </NuxtLink>
-      <NuxtLink to="/pagehotel" class="text-sm hover:text-black text-white font-bold mx-4  my-4">
+      <NuxtLink to="/pagehotel" class="text-sm hover:text-black text-white font-bold md:mx-4 lg:mx-4 md:my-4 lg:my-4">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -67,7 +67,7 @@
         </svg>
    هتل ها
     </NuxtLink>
-    <NuxtLink to="/pagecontactus" class="text-sm hover:text-black text-white font-bold mx-4  my-4  ">
+    <NuxtLink to="/pagecontactus" class="text-sm hover:text-black text-white font-bold md:mx-4 lg:mx-4 md:my-4 lg:my-4  ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -85,7 +85,7 @@
     تماس با ما
   </NuxtLink>
     
-      <NuxtLink to="/pageaboutwe" class="text-sm hover:text-black text-white font-bold mx-4  my-4 ">
+      <NuxtLink to="/pageaboutwe" class="text-sm hover:text-black text-white font-bold md:mx-4 lg:mx-4 md:my-4 lg:my-4 ">
   <svg
     href="#"
     xmlns="http://www.w3.org/2000/svg"

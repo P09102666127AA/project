@@ -6,13 +6,13 @@
     >
       <img
         src="international-tour.jpg"
-        class="w-32 h-32 md:w-60 md:h-60 lg:w-80 lg:h-80 mr-20 ml-20"
+        class="w-80 h-80 md:w-60 md:h-60 lg:w-80 lg:h-80 mr-20 ml-20"
       />
       <div class="p-4">
-        <div class="flow-root">
+        <div class="flow-root flex">
           <div class="text-2xl text-orange-500 mt-10 mr-20">هتل ها</div>
         </div>
-        <p class="flow-root mt-6 mr-20 ml-20 leading-loose">
+        <p class=" mt-6 mr-10 md:mr-20 lg:mr-20 ml-10 md:ml-20 lg:ml-20 leading-loose flex justify-center">
           هتل ها براساس خدمات و کیفیت که دارند درجه بندی می شوند. درجه ی هتل ها
           از یک ستاره تا پنج ستاره است که براساس استانداردهای جهانی هتل داری
           آیین نامه آن شکل گرفته است و بر حسب آن هتل ها نیز امتیاز داده می شوند.
@@ -32,13 +32,12 @@
       </a>
     </div>
     <!--menu box!-->
-    <div class="flex flex-col md:flex-row lg:flex-row overflow-x-auto md:overflow-hidden lg:overflow-hidden">
+    <div class="flex flex-col md:flex-row lg:flex-row ">
       <span
-        class="shadow-md mr-4 bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md"
-      >
-        <img class="h-48 w-full object-cover" src="turkish.jpg" alt="turkish" />
+      class="shadow-md w-96 lg:w-72 md:w-72 lg:h-auto h-auto bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md">
+        <img class="object-cover" src="turkish.jpg" alt="turkish" />
         <ul class="flex flex-col">
-          <div class="h-48 px-3">
+          <div class="px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
               <h2 class="font-bold text-black py-3 mr-2">قشم</h2>
               <svg
@@ -97,30 +96,29 @@
               </svg>
             </div>
           </div>
-          <div class="">
-            <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br />
-              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+          <div class="flex justify-center">
+            <p class="text-gray-500 items-center px-4 py-4">
+              شهری که نیم وجودش اروپا و نیم دیگرش 
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار
               بیزینس و...
             </p>
           </div>
         </ul>
         <NuxtLink
           to="/pagehotel"
-          class="grid justify-items-center rounded-full bg-blue-600 text-white font-bold w-20 mx-24 mb-2 py-2"
+          class="grid justify-items-center rounded-full bg-blue-600 text-white font-bold w-20 mx-36 lg:mx-24 py-2 mt-4 mb-10 "
         >
           بیشتر
         </NuxtLink>
       </span>
 
       <span
-        class="shadow-md mr-4 bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md"
-      >
-        <img class="h-48 w-full object-cover" src="turkish.jpg" alt="turkish" />
+      class="shadow-md w-96 lg:w-72 md:w-72 lg:h-auto h-auto bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md">
+        <img class="object-cover" src="turkish.jpg" alt="turkish" />
         <ul class="flex flex-col">
-          <div class="h-48 px-3">
+          <div class="px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
-              <h2 class="font-bold text-black py-3 mr-2">کیش</h2>
+              <h2 class="font-bold text-black py-3 mr-2">قشم</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -177,30 +175,29 @@
               </svg>
             </div>
           </div>
-          <div class="">
-            <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br />
-              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+          <div class="flex justify-center">
+            <p class="text-gray-500 items-center px-4 py-4">
+              شهری که نیم وجودش اروپا و نیم دیگرش 
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار
               بیزینس و...
             </p>
           </div>
         </ul>
         <NuxtLink
           to="/pagehotel"
-          class="grid justify-items-center rounded-full bg-blue-600 text-white font-bold w-20 mx-24 mb-2 py-2"
+          class="grid justify-items-center rounded-full bg-blue-600 text-white font-bold w-20 mx-36 lg:mx-24 py-2 mt-4 mb-10 "
         >
           بیشتر
         </NuxtLink>
       </span>
 
       <span
-        class="shadow-md mr-4 bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md"
-      >
-        <img class="h-48 w-full object-cover" src="turkish.jpg" alt="turkish" />
+      class="shadow-md w-96 lg:w-72 md:w-72 lg:h-auto h-auto bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md">
+        <img class="object-cover" src="turkish.jpg" alt="turkish" />
         <ul class="flex flex-col">
-          <div class="h-48 px-3">
+          <div class="px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
-              <h2 class="font-bold text-black py-3 mr-2">اصفهان</h2>
+              <h2 class="font-bold text-black py-3 mr-2">قشم</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -257,30 +254,29 @@
               </svg>
             </div>
           </div>
-          <div class="">
-            <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br />
-              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+          <div class="flex justify-center">
+            <p class="text-gray-500 items-center px-4 py-4">
+              شهری که نیم وجودش اروپا و نیم دیگرش 
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار
               بیزینس و...
             </p>
           </div>
         </ul>
         <NuxtLink
           to="/pagehotel"
-          class="grid justify-items-center rounded-full bg-blue-600 text-white font-bold w-20 mx-24 mb-2 py-2"
+          class="grid justify-items-center rounded-full bg-blue-600 text-white font-bold w-20 mx-36 lg:mx-24 py-2 mt-4 mb-10 "
         >
           بیشتر
         </NuxtLink>
       </span>
 
       <span
-        class="shadow-md mr-4 bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md"
-      >
-        <img class="h-48 w-full object-cover" src="turkish.jpg" alt="turkish" />
+      class="shadow-md w-96 lg:w-72 md:w-72 lg:h-auto h-auto bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md">
+        <img class="object-cover" src="turkish.jpg" alt="turkish" />
         <ul class="flex flex-col">
-          <div class="h-48 px-3">
+          <div class="px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
-              <h2 class="font-bold text-black py-3 mr-2">شیراز</h2>
+              <h2 class="font-bold text-black py-3 mr-2">قشم</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -337,17 +333,17 @@
               </svg>
             </div>
           </div>
-          <div class="">
-            <p class="text-gray-500 justify-center items-center pr-4 pb-4">
-              شهری که نیم وجودش اروپا و نیم دیگرش <br />
-              آسیاست، شهر گنبد ایاصوفیه، شاهکار <br />
+          <div class="flex justify-center">
+            <p class="text-gray-500 items-center px-4 py-4">
+              شهری که نیم وجودش اروپا و نیم دیگرش 
+              آسیاست، شهر گنبد ایاصوفیه، شاهکار
               بیزینس و...
             </p>
           </div>
         </ul>
         <NuxtLink
           to="/pagehotel"
-          class="grid justify-items-center rounded-full bg-blue-600 text-white font-bold w-20 mx-24 mb-2 py-2"
+          class="grid justify-items-center rounded-full bg-blue-600 text-white font-bold w-20 mx-36 lg:mx-24 py-2 mt-4 mb-10 "
         >
           بیشتر
         </NuxtLink>
