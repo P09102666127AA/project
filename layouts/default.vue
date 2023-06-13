@@ -1,6 +1,7 @@
 <template>
   <section>
-    <logomenu />
+    <menudesktop />
+    <menumobile/>
         <Nuxt />
     <iconphone />
     <footeer />

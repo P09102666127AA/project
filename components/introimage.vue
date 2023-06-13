@@ -11,7 +11,7 @@
         </p>
       </div>
    
-    <img class="w-full h-45" src="photo2 .jpg" />
+    <img class="w-full h-45" src="photo2 .jpg" alt="بدرقه پرواز آرین ، کمپانی بدرقه پرواز آرین ف سفرتون رو به ما بسپارید ، تور های خارجی و داخلی"/>
 
     <p class="text-orange-600 text-center font-bold mt-10 mr-10">
       بدرقه پرواز آرین;مرکز اصلی رزرواسیون کامل ترین

@@ -7,7 +7,7 @@
         <img
           class="inline-block h-32 w-32 mr-10 rounded-full"
           src="logo.png"
-          alt="logo"
+          alt="بدرقه پرواز آرین ، لوگوی شرکت بدرقه پرواز آرین"
         />
         <div class="mt-2 mr10">
           <p class="text-white leading-loose">

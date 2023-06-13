@@ -7,7 +7,7 @@
       class="flex flex-col md:flex-row lg:flex-row sm:flex-col mt-32 items-center mb-24"
     >
       <img
-        src="international-tour.jpg"
+        src="international-tour.jpg" alt="تورهای داخلی ، تورهای داخلی بدرقه پرواز آرین ، سفر خود را به ما بسپارید"
         class="w-80 h-80 md:w-60 md:h-60 lg:w-80 lg:h-80 mr-20 ml-20"
       />
       <div class="p-4">
@@ -38,7 +38,7 @@
     <div class="flex flex-col md:flex-row lg:flex-row overflow-x-auto md:overflow-hidden lg:overflow-hidden">
       <span
       class="shadow-md w-96 lg:w-72 md:w-72 lg:h-auto h-auto bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md">
-        <img class="object-cover" src="turkish.jpg" alt="turkish" />
+        <img class="object-cover" src="turkish.jpg" alt="تور ارزون قشم ، تور داخلی ، تور قشم ، تور ترکیه ، تور قشم با بدرقه پرواز آرین" />
         <ul class="flex flex-col">
           <div class="px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
@@ -117,7 +117,7 @@
 
       <span
       class="shadow-md w-96 lg:w-72 md:w-72 lg:h-auto h-auto bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md">
-        <img class="object-cover" src="turkish.jpg" alt="turkish" />
+        <img class="object-cover" src="turkish.jpg" alt="تور ارزون قشم ، تور داخلی ، تور قشم ، تور ترکیه ، تور قشم با بدرقه پرواز آرین" />
         <ul class="flex flex-col">
           <div class="px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
@@ -196,7 +196,7 @@
 
       <span
       class="shadow-md w-96 lg:w-72 md:w-72 lg:h-auto h-auto bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md">
-        <img class="object-cover" src="turkish.jpg" alt="turkish" />
+        <img class="object-cover" src="turkish.jpg" alt="تور ارزون قشم ، تور داخلی ، تور قشم ، تور ترکیه ، تور قشم با بدرقه پرواز آرین" />
         <ul class="flex flex-col">
           <div class="px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
@@ -275,7 +275,7 @@
 
       <span
       class="shadow-md w-96 lg:w-72 md:w-72 lg:h-auto h-auto bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md">
-        <img class="object-cover" src="turkish.jpg" alt="turkish" />
+        <img class="object-cover" src="turkish.jpg" alt="تور ارزون قشم ، تور داخلی ، تور قشم ، تور ترکیه ، تور قشم با بدرقه پرواز آرین" />
         <ul class="flex flex-col">
           <div class="px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">

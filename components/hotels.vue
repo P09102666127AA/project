@@ -5,7 +5,7 @@
       class="flex flex-col md:flex-row-reverse lg:flex-row-reverse sm:flex-col mt-32 items-center mb-24"
     >
       <img
-        src="international-tour.jpg"
+        src="international-tour.jpg" alt="رزرو هتل ، رزور هفت های خارجی ، رزرو هتل های داهلی ، بدرقه پرواز آرین ، کمپانی بدرقه پرواز آرین"
         class="w-80 h-80 md:w-60 md:h-60 lg:w-80 lg:h-80 mr-20 ml-20"
       />
       <div class="p-4">
@@ -35,7 +35,7 @@
     <div class="flex flex-col md:flex-row lg:flex-row ">
       <span
       class="shadow-md w-96 lg:w-72 md:w-72 lg:h-auto h-auto bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md">
-        <img class="object-cover" src="turkish.jpg" alt="turkish" />
+        <img class="object-cover" src="turkish.jpg" alt="رزرو هتل ، رزرو هتل های خارجی ، رزرو هتل های داخلی ، بدرقه پرواز آرین ، کمپانی بدرقه پرواز آرین" />
         <ul class="flex flex-col">
           <div class="px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
@@ -114,7 +114,7 @@
 
       <span
       class="shadow-md w-96 lg:w-72 md:w-72 lg:h-auto h-auto bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md">
-        <img class="object-cover" src="turkish.jpg" alt="turkish" />
+        <img class="object-cover" src="turkish.jpg" alt="رزرو هتل ، رزرو هتل های خارجی ، رزرو هتل های داخلی ، بدرقه پرواز آرین ، کمپانی بدرقه پرواز آرین" />
         <ul class="flex flex-col">
           <div class="px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
@@ -193,7 +193,7 @@
 
       <span
       class="shadow-md w-96 lg:w-72 md:w-72 lg:h-auto h-auto bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md">
-        <img class="object-cover" src="turkish.jpg" alt="turkish" />
+        <img class="object-cover" src="turkish.jpg" alt="رزرو هتل ، رزرو هتل های خارجی ، رزرو هتل های داخلی ، بدرقه پرواز آرین ، کمپانی بدرقه پرواز آرین" />
         <ul class="flex flex-col">
           <div class="px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">
@@ -272,7 +272,7 @@
 
       <span
       class="shadow-md w-96 lg:w-72 md:w-72 lg:h-auto h-auto bg-white overflow-hidden mt-10 mx-auto border-solid border border-gray-300 rounded-md">
-        <img class="object-cover" src="turkish.jpg" alt="turkish" />
+        <img class="object-cover" src="turkish.jpg" alt="رزرو هتل ، رزرو هتل های خارجی ، رزرو هتل های داخلی ، بدرقه پرواز آرین ، کمپانی بدرقه پرواز آرین" />
         <ul class="flex flex-col">
           <div class="px-3">
             <div class="flex flex-row-reverse justify-end items-center mr-4">

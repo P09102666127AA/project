@@ -14,7 +14,7 @@
          بیشتر
           </NuxtLink>
         </div>
-        <img src="map_photo.jpg" alt="map_photo" />
+        <img src="map_photo.jpg" alt="درباره شرکت بدرقه پرواز آرین ، کمپانی بدرقه پرواز آرین " />
       </div>
     </div>
   </div>
