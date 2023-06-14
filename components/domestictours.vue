@@ -7,7 +7,7 @@
       class="flex flex-col md:flex-row lg:flex-row sm:flex-col mt-32 items-center mb-24"
     >
       <img
-        src="international-tour.jpg" alt="تورهای داخلی ، تورهای داخلی بدرقه پرواز آرین ، سفر خود را به ما بسپارید"
+        src="iran-tour-fara-gasht-kk.jpg" alt="تورهای داخلی ، تورهای داخلی بدرقه پرواز آرین ، سفر خود را به ما بسپارید"
         class="w-80 h-80 md:w-60 md:h-60 lg:w-80 lg:h-80 mr-20 ml-20"
       />
       <div class="p-4">

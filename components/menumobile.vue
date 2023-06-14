@@ -18,9 +18,9 @@
           </svg>
         </button>
       </div>
-      <div class="md:hidden lg:hidden bg-rose-300" v-show="showMobileMenu">
+      <div class="md:hidden lg:hidden bg-rose-300" :class="showMobileMenu ? '' : 'hidden'">
       <NuxtLink
-        to="/index"
+        to="/"
         class="block py-2 px-4 hover:bg-blue-500 hover:text-white flex flex-row"
       >
       
@@ -128,8 +128,26 @@
 </template>
 
 
-<script setup>
-import { ref } from "vue";
+<script>
+export default {
+  data () {
+    return {
+      showMobileMenu: false,
+      
+    };
+    },
+    methods: {
+      toggleNav: function () {
+        this.showMobileMenu = !this.showMobileMenu;
+        console.log("click")
+      },
+    },
+    watch: {
+  '$route.path'() {
+    this.showMobileMenu = false
+  }
+}
+}
 
-const showMobileMenu = ref(false);
+
 </script>
