@@ -132,7 +132,7 @@
 export default {
   data () {
     return {
-      showMobileMenu: false,
+      showMobileMenu: false
       
     };
     },
