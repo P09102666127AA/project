@@ -84,8 +84,7 @@
             </button>
           </div>
         </div>
-        <div class="mx-auto w-full mx-10 max-w-sm rounded-md bg-yellow-500 mb-6">
-          <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+        <div class="mx-auto w-10/12 md:w-full lg:w-full mx-10 max-w-sm rounded-md bg-yellow-500 mb-6">
             <form class="md:px-4 lg:px-4 pt-4" action="#" method="POST">
               <div>
                 <h1 class="block font-bold leading-6 text-black pb-4 pr-4">
@@ -103,19 +102,18 @@
                     type="email"
                     autocomplete="email"
                     required
-                    class="block px-10 py-2 mr-2 rounded-full py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-white border border-gray-500"
+                    class="block w-40 px-10 py-2 mr-2 rounded-full py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-white border border-gray-500"
                     placeholder="ایمیل"
                   />
                   <a
                     href="mailto:info@badraghe.me"
-                    class="flex justify-center rounded-full bg-gray-300 px-4 py-2 font-bold font-semibold leading-6 text-black shadow-sm hover:bg-gray-500 mx-2 md:mx-4 lg:mx-4"
+                    class="w-20 flex justify-center rounded-full bg-gray-300 px-4 py-2 font-bold font-semibold leading-6 text-black shadow-sm hover:bg-gray-500 mx-2 md:mx-4 lg:mx-4"
                   >
                     اشتراک
                   </a>
                 </div>
               </div>
             </form>
-          </div>
         </div>
       </div>
       <div class="flex flex-col ml-10">
