@@ -1,7 +1,7 @@
 <template>
     <div>
     <div class="md:hidden lg:hidden flex items-center">
-        <button @click="showMobileMenu = !showMobileMenu" class="py-5 px-2 absolute top-0">
+        <button @click="showMobileMenu = !showMobileMenu" class="py-5 px-2 absolute top-0 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -18,10 +18,10 @@
           </svg>
         </button>
       </div>
-      <div class="md:hidden lg:hidden bg-rose-300" :class="showMobileMenu ? '' : 'hidden'">
+      <div class="md:hidden lg:hidden bg-blue-400 w-full border-l" :class="showMobileMenu ? '' : 'hidden'">
       <NuxtLink
         to="/"
-        class="block py-2 px-4 hover:bg-blue-500 hover:text-white flex flex-row"
+        class="block py-2 px-4 hover:bg-orange-500 hover:text-white flex flex-row"
       >
       
         <svg
@@ -43,7 +43,7 @@
      
       <NuxtLink
           to="/firstpagetours"
-          class="block py-2 px-4 hover:bg-blue-500 hover:text-white flex flex-row"
+          class="block py-2 px-4 hover:bg-orange-500 hover:text-white flex flex-row"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@
         </NuxtLink>
         <NuxtLink
           to="/pagehotel"
-          class="block py-2 px-4 hover:bg-blue-500 hover:text-white flex flex-row"
+          class="block py-2 px-4 hover:bg-orange-500 hover:text-white flex flex-row"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@
         </NuxtLink>
         <NuxtLink
           to="/pageaboutwe"
-          class="block py-2 px-4 hover:bg-blue-500 hover:text-white flex flex-row"
+          class="block py-2 px-4 hover:bg-orange-500 hover:text-white flex flex-row"
         >
           <svg
             href="#"
@@ -105,7 +105,7 @@
         </NuxtLink>
         <NuxtLink
           to="/pagecontactus"
-          class="block py-2 px-4 hover:bg-blue-500 hover:text-white flex flex-row"
+          class="block py-2 px-4 hover:bg-orange-500 hover:text-white flex flex-row"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

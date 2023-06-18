@@ -3,14 +3,14 @@
     <div
       class="flex flex-col md:flex-row lg:flex-row sm:flex-col items-center justify-between shadow bg-gradient-to-r from-indigo-950 from-10% via-fuchsia-500 via-50% to-rose-500 to-90%"
     >
-      <div class="flex flex-col py-4 mr-10">
+      <div class="flex justify-center flex-col py-4 md:mr-8 lg:mr-10">
         <img
-          class="inline-block h-32 w-32 mr-10 rounded-full"
+          class="inline-block h-32 w-32 mr-10 rounded-full "
           src="logo.png"
           alt="بدرقه پرواز آرین ، لوگوی شرکت بدرقه پرواز آرین"
         />
-        <div class="mt-2 mr10">
-          <p class="text-white leading-loose">
+        <div class="mt-2">
+          <p class="text-white leading-loose ">
             پاسخگویی شما از شنبه تا چهارشنبه <br />
             از ساعت 8:00 تا 18:00 می باشیم
           </p>
@@ -92,7 +92,7 @@
                 </h1>
                 <label
                   for="email"
-                  class="block font-bold leading-6 text-gray-900 pr-2"
+                  class="block font-bold leading-6 text-gray-900 pr-2 px-2"
                   >با وارد کردن ایمیل خود از جدیدترین تورها با خبر شوید</label
                 >
                 <div class="mt-2 flex flex-row pb-4">
@@ -102,12 +102,12 @@
                     type="email"
                     autocomplete="email"
                     required
-                    class="block w-40 px-10 py-2 mr-2 rounded-full py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-white border border-gray-500"
+                    class="block40 w-48 lg:w-80 px-10 py-2 mr-2 rounded-full py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-white border border-gray-500"
                     placeholder="ایمیل"
                   />
                   <a
                     href="mailto:info@badraghe.me"
-                    class="w-20 flex justify-center rounded-full bg-gray-300 px-4 py-2 font-bold font-semibold leading-6 text-black shadow-sm hover:bg-gray-500 mx-2 md:mx-4 lg:mx-4"
+                    class="w-20 lg:w-20 flex justify-center rounded-full bg-gray-300 px-4 py-2 font-bold font-semibold leading-6 text-black shadow-sm hover:bg-gray-500 mx-2 md:mx-4 lg:mx-4"
                   >
                     اشتراک
                   </a>
@@ -117,22 +117,22 @@
         </div>
       </div>
       <div class="flex flex-col ml-10">
-        <div class="flex flex-row-reverse">
+       
           <ul>
-            <li class="text-white py-2">راه های ارتباطی با ما:</li>
-            <li class="text-white py-2">
+            <li class="text-white py-2 flex justify-center md:justify-start lg:justify-start">راه های ارتباطی با ما:</li>
+            <li class="text-white py-2 flex justify-center md:justify-start lg:justify-start">
               <a href="tel:+98 02186043550" class="hover:text-black">86043550</a> _
               <a href="tel:09126118386" class="hover:text-black">09126118386</a>
             </li>
-            <li class="text-white py-2">
+            <li class="text-white py-2 flex justify-center md:justify-start lg:justify-start">
               <a href="mailto:info@badraghe.me" class="hover:text-black">info@badraghe.me</a>
             </li>
-            <li class="text-white pt-2">آدرس</li>
-            <li class="text-white pb-4"> سهروردی شمالی خیابان هویزه پلاک 53 واحد 1 زنگ 4 </li>
+            <li class="text-white pt-2 flex justify-center md:justify-start lg:justify-start">آدرس:</li>
+            <li class="text-white pb-4 pr-4 md:pr-0 lg:pr-0 flex justify-center md:justify-start lg:justify-start"> سهروردی شمالی خیابان هویزه پلاک 53 واحد 1 زنگ 4 </li>
           </ul>
         </div>
       </div>
-      </div>
+      
     
     <!--footer info-->
     <div
